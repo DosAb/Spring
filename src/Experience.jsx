@@ -22,7 +22,7 @@ export default function Experience()
         dpr={[1, 2]} //pixelRation
         linear
         gl={{ 
-            antialias: false,
+            antialias: true,
             alpha: true,
             outputColorSpace: THREE.SRGBColorSpace,
         }} 
